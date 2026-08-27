@@ -1,0 +1,172 @@
+import { Certificate } from '../types';
+
+export const certificatesData: Certificate[] = [
+  {
+    id: 'ssec-visionary-award-2025',
+    title: 'SSEC Visionary Award 2K25',
+    issuer: 'Sree Sakthi Engineering College (Autonomous)',
+    date: '06 November 2025',
+    type: 'Recognition & Award Plaque',
+    category: 'Achievement',
+    image: '/certificates/ssec-visionary-award.jpg',
+    description: 'Tech Excellence & Code Master Award conferred by Sree Sakthi Engineering College for exemplary technical contributions and coding excellence.',
+    highlights: ['Tech Excellence & Code Master Award', 'Institutional Recognition'],
+    associatedWith: 'Sree Sakthi Engineering College'
+  },
+  {
+    id: 'uthra-project-expo-2026',
+    title: 'Project Expo — UTHRA\'2K26',
+    issuer: 'United Institute of Technology',
+    date: '13 February 2026',
+    type: 'Certificate of Excellence',
+    category: 'Achievement',
+    image: '/certificates/uthra-project-expo-2026.jpeg',
+    description: 'Awarded 1st Place in the Project Expo event at UTHRA\'2K26 Techno Cultural Fest for demonstrating an innovative technical project.',
+    highlights: ['1st Place Winner', 'Techno Cultural Fest'],
+    associatedWith: 'United Institute of Technology'
+  },
+  {
+    id: 'blockchain-research-2025',
+    title: 'Enabling Data Storage Security with Blockchain Technology',
+    issuer: 'ICFTSEM-III-2025 / SSEC Dept of Cyber Security',
+    date: '27–28 February 2025',
+    type: 'Oral Presentation Certificate',
+    category: 'Conference',
+    image: '/certificates/blockchain-research.jpg',
+    description: 'Presented technical paper research at the 2nd International Conference on Futuristic Trends in Science, Engineering, and Management (ICFTSEM-III-2025). Jointly organized by St. Xavier\'s College of Management & Technology, Patna and Global Conference Hub, Coimbatore.',
+    highlights: ['Technical Paper Presentation', 'Blockchain Security Research'],
+    associatedWith: 'Department of Cyber Security, SSEC'
+  },
+  {
+    id: 'technovegenza-24',
+    title: 'Technovegenza\'24 — Project Expo',
+    issuer: 'Coimbatore Institute of Engineering and Technology',
+    date: '28 March 2024',
+    type: 'Certificate of Award',
+    category: 'Achievement',
+    image: '/certificates/technovegenza-24.jpg',
+    description: 'Secured 1st Prize in Project Expo at Technovegenza\'24 for showcasing practical software solution design.',
+    highlights: ['1st Prize Winner', 'State Level Technical Symposium'],
+    associatedWith: 'CIET'
+  },
+  {
+    id: 'digital-designing-2024',
+    title: 'Excellence in Digital Designing — CD Cover',
+    issuer: 'Sree Sakthi Engineering College',
+    date: '23 March 2024',
+    type: 'Excellence Prize',
+    category: 'Achievement',
+    image: '/certificates/digital-designing.jpg',
+    description: 'Awarded Excellence Prize for digital graphics design of the college magazine CD cover during INTER "O" FEST-2K24.',
+    highlights: ['Excellence Prize', 'Digital Design & Media'],
+    associatedWith: 'Sree Sakthi Engineering College'
+  },
+  {
+    id: 'architect-appreciation-2024',
+    title: 'INVICTUS 2K24 — Certificate of Appreciation (ARCHITECT)',
+    issuer: 'Sree Sakthi Engineering College (Autonomous)',
+    date: 'Academic Year 2023–2024',
+    type: 'Certificate of Appreciation',
+    category: 'Achievement',
+    image: '/certificates/architect-appreciation.jpg',
+    description: 'Recognized with 1st Prize for active leadership and contributions in ARCHITECT technical activities during the academic year 2023–2024.',
+    highlights: ['1st Prize', 'ARCHITECT Activity Leadership'],
+    associatedWith: 'Sree Sakthi Engineering College'
+  },
+  {
+    id: 'hackindia-2025',
+    title: 'HackIndia 2025 — Web3 & AI Hackathon',
+    issuer: 'HackIndia / SingularityNET',
+    date: '2025',
+    type: 'Certificate of Participation',
+    category: 'Hackathon',
+    image: '/certificates/hackindia-2025.jpg',
+    description: 'Represented Sree Sakthi Engineering College CSE Department at HackIndia 2025 national Web3 & AI Hackathon.',
+    highlights: ['National Level Hackathon', 'Web3 & AI Exploration'],
+    associatedWith: 'SSEC CSE Department'
+  },
+  {
+    id: 'code-o-clock-2024',
+    title: 'Code O Clock — 24-Hour Hackathon',
+    issuer: 'Coimbatore Institute of Technology',
+    date: '18–19 October 2024',
+    type: 'Certificate of Participation',
+    category: 'Hackathon',
+    image: '/certificates/code-o-clock.jpg',
+    description: 'Participated in intense 24-hour continuous coding hackathon focusing on rapid application prototyping.',
+    highlights: ['24-Hour Hackathon', 'Continuous Coding'],
+    associatedWith: 'CIT'
+  },
+  {
+    id: 'cyber-security-2025',
+    title: 'Introduction to Cyber Security',
+    issuer: 'Simplilearn SkillUp',
+    date: '26 February 2025',
+    type: 'Certificate of Completion',
+    category: 'Certification',
+    image: '/certificates/cyber-security.jpg',
+    description: 'Completed comprehensive course covering foundational cybersecurity concepts, network security basics, and threat landscape analysis.',
+    highlights: ['Cybersecurity Core Concepts', 'SkillUp Professional Certificate'],
+    associatedWith: 'Simplilearn'
+  },
+  {
+    id: 'genai-prompt-engineering-2024',
+    title: 'Unleashing Creativity with GenAI & Prompt Engineering',
+    issuer: 'Karpagam Institute of Technology',
+    date: '21–22 March 2024',
+    type: 'Certificate of Participation',
+    category: 'Workshop',
+    image: '/certificates/genai-prompt-engineering.jpg',
+    description: 'Hands-on workshop exploring Generative AI models, prompt structure engineering, and practical LLM applications during VARNAM\'24.',
+    highlights: ['GenAI Hands-on Workshop', 'VARNAM\'24'],
+    associatedWith: 'Karpagam Institute of Technology'
+  },
+  {
+    id: 'advanced-python-2024',
+    title: 'Advanced Python Programming',
+    issuer: 'Sree Sakthi Engineering College / VEI Technologies',
+    date: '12–17 February 2024',
+    type: 'Course Completion Certificate',
+    category: 'Certification',
+    image: '/certificates/advanced-python.jpg',
+    description: 'One-week value added course on advanced Python syntax, object-oriented concepts, and module integration conducted by VEI Technologies Pvt. Ltd., Chennai.',
+    highlights: ['One Week Value Added Course', 'VEI Technologies'],
+    associatedWith: 'VEI Technologies Pvt. Ltd.'
+  },
+  {
+    id: 'frontend-js-2024',
+    title: 'Front End Technology with Framework and JS',
+    issuer: 'KGiSL MicroCollege / NSDC',
+    date: '2024',
+    type: 'Certificate of Completion',
+    category: 'Certification',
+    image: '/certificates/frontend-js.jpg',
+    description: 'Comprehensive training on front-end web technologies, modern JavaScript fundamentals, and UI component frameworks.',
+    highlights: ['NSDC Certified', 'KGiSL MicroCollege'],
+    associatedWith: 'KGiSL MicroCollege'
+  },
+  {
+    id: 'crezils-2024',
+    title: 'CREZILS\'24 Technical Event',
+    issuer: 'Sri Ramakrishna Engineering College',
+    date: '29 February 2024',
+    type: 'Certificate of Participation',
+    category: 'Participation',
+    image: '/certificates/crezils-24.jpg',
+    description: 'Participated in state-level technical symposium events hosted by Sri Ramakrishna Engineering College.',
+    highlights: ['Technical Symposium', 'Inter-College Event'],
+    associatedWith: 'SREC'
+  },
+  {
+    id: 'app-dev-training-2024',
+    title: 'One-Day Hands-on Training on App Development',
+    issuer: 'Sree Sakthi Engineering College',
+    date: '2024',
+    type: 'Trainer / Knowledge Sharing Session',
+    category: 'Training',
+    image: '/certificates/One-Day Hands-on Training on App Development.jpg',
+    description: 'Photographic record & documentation of conducting a hands-on Android App Development training session for 2nd & 3rd year diploma students.',
+    highlights: ['Peer Trainer & Knowledge Sharing', 'Diploma Student Mentorship'],
+    associatedWith: 'Sree Sakthi Engineering College'
+  }
+];
